@@ -15,6 +15,6 @@ RUN npm install
 COPY . .
 
 # expose container port
-EXPOSE 6423
+EXPOSE 3000
 
 CMD npm start
